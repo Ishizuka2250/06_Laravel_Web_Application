@@ -1,0 +1,90 @@
+h1 {
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+body {
+  position:relative;
+  background-color: #2d197c;
+}
+
+div.contents-outer {
+  box-sizing: border-box;
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+  width:50vw;
+  padding: 30px;
+  background-color:#ffffff;
+  border-radius: 10px;
+}
+
+input.content {
+  width: 80%;
+  height: 25px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  appearance: none;
+  outline: none;
+}
+
+table {
+  width: 100%;
+  padding: 20px;
+}
+table th {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+table td {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+div.contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input.content-update {
+  display:block;
+  width: 90%;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px;
+  appearance: none;
+  outline: none;
+}
+
+.submit-button {
+  width: 60px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border: 2px solid #dc70fa;
+  color: #dc70fa;
+  border-radius: 5px;
+}
+
+.update-button {
+  width: 60px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border: 2px solid #fa9770;
+  color: #fa9770;
+  border-radius: 5px;
+}
+.delete-button{
+  width: 60px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border: 2px solid #71fadc;
+  color: #71fadc;
+  border-radius: 5px;
+}
